@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<weblogic-web-app xmlns="http://www.bea.com/ns/weblogic/90" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <security-role-assignment>
+        <role-name>webgoat_user</role-name>
+        <principal-name>webgoatUsers</principal-name>
+    </security-role-assignment>
+    <security-role-assignment>
+        <role-name>webgoat_admin</role-name>
+        <principal-name>webgoatAdmin</principal-name>
+    </security-role-assignment>
+    <security-role-assignment>
+        <role-name>webgoat_challenge</role-name>
+        <principal-name>webgoatChallenge</principal-name>
+    </security-role-assignment>
+    <security-role-assignment>
+        <role-name>server_admin</role-name>
+        <principal-name>webgoatServerAdmin</principal-name>
+    </security-role-assignment>
+</weblogic-web-app>
